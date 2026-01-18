@@ -1,0 +1,19 @@
+# Giao diện và Đồ họa
+streamlit
+plotly
+
+# Xử lý dữ liệu và Tính toán
+pandas
+numpy
+scikit-learn
+joblib
+
+# Mô hình dự báo chuyên sâu
+pmdarima
+arch
+
+# Lấy dữ liệu chứng khoán (Việt Nam)
+vnstock
+
+# Xử lý hình ảnh và Tiện ích
+Pillow
