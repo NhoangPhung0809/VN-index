@@ -1,0 +1,18 @@
+Ngay chay: 2026-01-11
+Mo hinh | RMSE | MAE | R2 | Do on dinh | CV sigma
+ARIMA+GARCH | 12.5670 | 12.2036 | 0.9914 | Cao | 3.02
+XGBoost | 13.8685 | 219.6156 | -1.2041 | Cao | 3.67
+CNN-LSTM | 466.3450 | 71.5428 | -3.2925 | Thấp | 210.95
+GRU | 557.1407 | 241.5743 | -1.6501 | Thấp | 321.80
+Informer | 345.0435 | 45.1999 | -0.6903 | Thấp | 90.94
+DeepAR | 412.4185 | 68.3432 | -2.9215 | Thấp | 329.25
+LightGBM | 12.5068 | 211.8140 | -1.0877 | Cao | 3.30
+Amazon Chronos (AI) | 225.8214 | 230.6285 | -1.3971 | Thấp | 93.15
+SVR | 13.9231 | 146.4476 | -0.0308 | Cao | 1.90
+Random Forest | 13.2247 | 216.0299 | -1.1493 | Cao | 3.46
+CatBoost | 12.7259 | 208.6808 | -1.0392 | Cao | 2.98
+LSTM | 544.5958 | 341.8258 | -3.8870 | Thấp | 227.87
+Hybrid (LSTM + CatBoost) | 354.5320 | 272.3667 | -2.2952 | nan | Chưa có số liệu
+Hybrid (ARIMA + LSTM) | 217.4364 | 172.4578 | -0.2395 | nan | Chưa có số liệu
+Hybrid (Voting ML) | 284.2797 | 213.9199 | -1.1187 | nan | Chưa có số liệu
+Hybrid (Stacking ML) | 18.8380 | 12.4390 | 0.9907 | nan | Chưa có số liệu
